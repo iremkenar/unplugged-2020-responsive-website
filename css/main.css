@@ -102,116 +102,121 @@ textarea {
 
    header, 
    footer {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    } 
 
-   /* Header styles */
-
-   header {
-
-   }
-
    header .content-wrapper {
-
-   }
-
-   .header-divider {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    header nav {
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    header nav ul {
-
+    display: flex;
+    justify-content: space-around;
    }
 
-   header nav ul li {
-
+   footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    }
 
-   header nav ul li a{
-
+   footer.social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
     /* ------ Mobile Styles - Homepage ---------*/
 
+   /* Hero Area*/
 
    .hero-area {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   main .content-wrapper {
-
-   }
+   /* Aside */
 
    aside {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   aside .content-wrapper {
+   /* Features */
 
+   .features {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
    }
 
-   .form-description {
-
+   .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   .form {
+   /* Reviews */
 
+   .reviews {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
    }
 
-   /* ------ Mobile Styles - Homepage - Features ---------*/
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
-   .features .content-wrapper {
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+   .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   .features-items {
-
+   .faq .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
    }
-
-   .features-item-description {
-
-   }
-
-   .fontawesome-icon {
-
-   }
-
-   /* ------ Mobile Styles - Homepage - Reviews ---------*/
-
-   .reviews .content-wrapper {
-
-   }
-
-   /* Footer*/
-
-   footer {
-
-   }
-
-   footer .content-wrapper {
-
-   }
-
-   .footer-content {
-
-   }
-
-   .contact {
-
-   }
-
-   .social-icons {
-
-   }
-
-   .copyright {
-     
-   }
-
 
 
 /* ==========================================================================
