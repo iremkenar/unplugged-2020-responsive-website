@@ -97,6 +97,122 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   /* ------ Base Header - Footer Styles ----------*/
+
+   header, 
+   footer {
+
+   } 
+
+   /* Header styles */
+
+   header {
+
+   }
+
+   header .content-wrapper {
+
+   }
+
+   .header-divider {
+
+   }
+
+   header nav {
+
+   }
+
+   header nav ul {
+
+   }
+
+   header nav ul li {
+
+   }
+
+   header nav ul li a{
+
+   }
+
+    /* ------ Mobile Styles - Homepage ---------*/
+
+
+   .hero-area {
+
+   }
+
+   main .content-wrapper {
+
+   }
+
+   aside {
+
+   }
+
+   aside .content-wrapper {
+
+   }
+
+   .form-description {
+
+   }
+
+   .form {
+
+   }
+
+   /* ------ Mobile Styles - Homepage - Features ---------*/
+
+   .features .content-wrapper {
+
+   }
+
+   .features-items {
+
+   }
+
+   .features-item-description {
+
+   }
+
+   .fontawesome-icon {
+
+   }
+
+   /* ------ Mobile Styles - Homepage - Reviews ---------*/
+
+   .reviews .content-wrapper {
+
+   }
+
+   /* Footer*/
+
+   footer {
+
+   }
+
+   footer .content-wrapper {
+
+   }
+
+   .footer-content {
+
+   }
+
+   .contact {
+
+   }
+
+   .social-icons {
+
+   }
+
+   .copyright {
+     
+   }
+
+
 
 /* ==========================================================================
    Helper classes
