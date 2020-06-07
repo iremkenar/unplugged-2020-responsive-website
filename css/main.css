@@ -284,7 +284,7 @@ textarea {
       flex-flow: row wrap;
       margin: 50px 0 0 0;
    }
-   
+
    .faq h2 {
     margin-bottom: 40px;
   }
@@ -383,16 +383,89 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+ @media only screen and (min-width:768px) {
+   /*Tablet styles here*/
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+   /* General Styles */
+
+   .content-wrapper {
+     max-width: 640px;
+     margin: 100px 0;
+   }
+
+   /*Header*/
+    header {
+      padding: 33% 0;
+    }
+
+   header .content-wrapper {
+     width: 100%;
+   }
+
+   header nav {
+    width: 20%;
+   }
+
+   header nav ul {
+
+   }
+
+   .header-divider {
+     display: none;
+   }
+
+   /*Hero area*/
+
+   /*Aside*/
+   aside .content-wrapper {
+     margin: 50px 0;
+   }
+
+   aside .content-wrapper .form-description, aside .content-wrapper .form {
+     width: 40%;
+     margin: 0;
+   }
+
+   /*Features*/
+
+   .features article {
+
+   }
+
+   .fetaures .fetaures-item-description {
+     width: 50%;
+   }
+
+   /*Reviews*/
+   
+   .reviews article div {
+     width: 49%;
+   }
+   
+   /*Footer*/
+
+   footer .content-wrapper {
+     width: 65%;
+     margin: 100px 0;
+   }
+
+   .footer-content {
+
+   }
+
+   footer .contact {
+     margin-bottom: 0;
+   }
+
+   footer .copyright {
+     width: 100%;
+   }
+
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+ }
 
 /* ==========================================================================
    Print styles.
