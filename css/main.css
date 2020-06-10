@@ -98,7 +98,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
    
-  .content-wrapper {
+   /*General Styles */ 
+
+   html {
+
+   }
+
+   body {
+
+   }
+
+   ul, 
+   ol {
+
+   }
+
+   a {
+
+   }
+
+   h2 {
+
+   }
+
+   h3,
+   h4 {
+
+   }
+
+   p {
+
+   }
+
+   img {
+
+   }
+
+   figure {
+
+   }
+
+   address {
+
+   }
+
+   .content-wrapper {
     width: 90%;
     margin: 50px 0;
   }
