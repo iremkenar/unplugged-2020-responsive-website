@@ -107,6 +107,7 @@ textarea {
    body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    color: #e2e3ed;
     text-align: left;
    }
 
@@ -123,6 +124,7 @@ textarea {
    h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
+    font-weight: 500;
 
    }
 
@@ -130,6 +132,7 @@ textarea {
    h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
+    font-weight: 500;
     margin 20px 0;
    }
 
@@ -159,6 +162,7 @@ textarea {
 
    header, 
    footer {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,6 +182,7 @@ textarea {
    }
 
    .header-divider {
+     background-color: #3a3a3a;
      width: 100%;
      height: 1px;
      margin: 10px 0 20px 0;
@@ -185,20 +190,29 @@ textarea {
    }
 
    header nav {
+    width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 60%;
    }
 
    header nav ul {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    
    }
 
-   footer { 
+   header nav ul li {
+     font-size: 1.125em;
+   }
+
+   footer {
+     text-align: center; 
      flex-direction: column;
    }
 
@@ -210,6 +224,11 @@ textarea {
      width: 55%;
      margin: 50px 0;
    }
+
+   footer h4 {
+    color: #e2e3ed;
+    font-weight: normal;
+  }
 
    footer .contact {
     margin-bottom: 50px;
@@ -241,9 +260,17 @@ textarea {
     flex-flow: row wrap;
    }
 
+   .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2em;
+  }
+
    /* Aside */
 
    aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,7 +287,6 @@ textarea {
      color: #2a423a;
      font-style: italic;
      padding: 1em;
-
    }
   
    input[type=button] {
@@ -286,7 +312,7 @@ textarea {
    }
 
    .features h2 {
-    margin-bottom: 60px;
+    margin-bottom: 60px; 
   }
 
   .features article {
@@ -308,6 +334,7 @@ textarea {
    /* Reviews */
 
    .reviews {
+     background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -315,6 +342,7 @@ textarea {
 
    .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1em;
   }
   
   .reviews h3 {
