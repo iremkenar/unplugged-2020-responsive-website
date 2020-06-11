@@ -356,6 +356,7 @@ textarea {
    ========================================================================== */
 
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,6 +364,7 @@ textarea {
 }
 
   .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,6 +380,7 @@ textarea {
    ========================================================================== */
 
    .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -385,15 +388,16 @@ textarea {
    }
 
    .faq .content-wrapper {
+      margin: 50px 0 0 0;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
-      margin: 50px 0 0 0;
    }
 
    .faq h2 {
     margin-bottom: 40px;
+    line-height: 1em;
   }
   
   .faq-content {
