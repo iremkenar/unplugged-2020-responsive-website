@@ -114,6 +114,8 @@ textarea {
    ul, 
    ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
    }
 
    a {
@@ -388,7 +390,7 @@ textarea {
   .map figure {
     width: 100%;
     height: 0;
-    padding-bottom: 80%;
+    padding-bottom: 125%;
     overflow: hidden;
     position: relative;
   }
@@ -734,7 +736,7 @@ textarea {
     .faq p {
       font-size: .875em;
       line-height: 1.125;
-  }
+   }
   }
  
 
@@ -837,6 +839,7 @@ textarea {
 
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq h4,
