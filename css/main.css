@@ -388,8 +388,6 @@ textarea {
     left: 0;
   }
 
-
-
   .contact-section {
     background-color: #2a423a;
     display: flex;
@@ -679,6 +677,10 @@ textarea {
     .mission-content p {
       width: 45%;
     }
+
+    .map figure {
+      padding-bottom: 45.5%;
+    }
   
     .contact-section .content-wrapper h2 {
       width: 80%;
@@ -797,7 +799,11 @@ textarea {
    About Page
    ========================================================================== */
 
-  .mission h2, 
+   .map figure {
+    padding-bottom: 37.5%;
+  }
+  
+   .mission h2, 
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
