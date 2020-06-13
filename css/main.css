@@ -328,6 +328,11 @@ textarea {
     margin: 30px 0;
   } 
 
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
    .features .features-items {
     display: flex;
     justify-content: center;
@@ -802,7 +807,7 @@ textarea {
    .map figure {
     padding-bottom: 37.5%;
   }
-  
+
    .mission h2, 
   .contact-section .content-wrapper h2 {
     width: 95%;
