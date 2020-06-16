@@ -746,10 +746,6 @@ textarea {
    header {
     padding: 15px 0;
   }
-  
-  .hero-area {
-    min-height: 775px;
-  }
 
   .content-wrapper {
     max-width: 960px;
